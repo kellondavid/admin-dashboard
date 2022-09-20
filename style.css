@@ -74,6 +74,16 @@ ul {
 .sideMenu ul {
   display: grid;
   gap: 10px;
+  cursor: pointer;
+}
+
+.sideMenu ul li {
+  display: flex;
+  gap: 1rem;
+}
+
+.sideTxt:hover {
+  text-decoration: underline;
 }
 
 .main {
