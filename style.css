@@ -29,10 +29,32 @@ ul {
   grid-column: 2/3;
 }
 
+.account {
+  margin-left: auto;
+}
+
+.menu {
+  grid-row: 2/3;
+  margin-left: auto;
+}
+
+.hello {
+  grid-row: 2/3;
+}
+
 .sidebar {
+  grid-row: 1/3;
+  justify-self: center;
+}
+
+.sideMenu {
   display: grid;
-  grid-column: 1/2;
-  grid-row: 1/-3;
+  gap: 30px;
+}
+
+.sideMenu ul {
+  display: grid;
+  gap: 10px;
 }
 
 .main {
@@ -41,10 +63,36 @@ ul {
   grid-template-columns: 3fr 1fr;
 }
 
-.announcements {
+.card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.cardContents {
+  height: 200px;
+}
+
+.rightSide {
   grid-column: 2/3;
 }
 
 .trending {
   grid-column: 2/3;
+}
+
+.trendingBoxes {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.trend {
+}
+
+img {
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
 }
