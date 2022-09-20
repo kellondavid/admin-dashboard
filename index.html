@@ -6,17 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Indie+Flower&family=League+Script&family=Merriweather&family=Montserrat:wght@100;400;900&family=Roboto&family=Sacramento&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1ef3d5c65e.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="container">
       <div class="header">
-        <p>header</p>
+        <div class="searchBar">
+          <i class="fa-solid fa-magnifying-glass"></i
+          ><input type="text" placeholder="Search.." />
+        </div>
+        <p>
+          Hi there, <br />
+          Kellon Ko (@kellondavid)
+        </p>
+        <div class="menu">
+          <ul>
+            <button><li>New</li></button>
+            <button><li>Upload</li></button>
+            <button><li>Share</li></button>
+          </ul>
+        </div>
       </div>
       <div class="sidebar">
-        <p>sidebar</p>
+        <div class="logo">
+          <p><i class="fa-brands fa-github"></i> Dashboard</p>
+        </div>
+        <div class="sideMenu">
+          <ul>
+            <li><i class="fa-solid fa-house-user"></i> Home</li>
+            <li><i class="fa-solid fa-user"></i> Profile</li>
+            <li><i class="fa-solid fa-message"></i> Messages</li>
+            <li><i class="fa-solid fa-clock-rotate-left"></i> History</li>
+            <li><i class="fa-solid fa-list-check"></i> Tasks</li>
+            <li><i class="fa-solid fa-users"></i> Communities</li>
+          </ul>
+          <ul class="settings">
+            <li><i class="fa-solid fa-gear"></i> Setting</li>
+            <li><i class="fa-solid fa-phone"></i> Support</li>
+            <li><i class="fa-solid fa-lock"></i> Privacy</li>
+          </ul>
+        </div>
       </div>
       <div class="main">
-        <p>main</p>
+        <div class="card">
+          <p class="articleTitle">Super Money Maker</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+            congue venenatis risus, at fermentum nisi convallis at. Pellentesque
+            vitae porttitor nisi, sit amet malesuada urna.
+          </p>
+          <p class="articleTitle">Cool Project</p>
+          <p>
+            In placerat erat ex, at porttitor leo varius at. Maecenas ut augue
+            vitae libero luctus placerat non at felis.
+          </p>
+          <p class="articleTitle">Not Cool Project</p>
+          <p>
+            Nam consequat sed ligula ut dictum. Vestibulum laoreet laoreet nibh,
+            et ornare eros feugiat eget. Nulla euismod convallis enim vel
+            bibendum.
+          </p>
+          <p class="articleTitle">Impossible App</p>
+          <p>
+            Aliquam sed interdum ipsum. Curabitur auctor metus mollis,
+            condimentum velit et, iaculis est. Sed faucibus commodo arcu, at
+            feugiat massa vulputate quis.
+          </p>
+          <p class="articleTitle">Ad Blocker</p>
+          <p>
+            Aenean vel sapien at magna sodales tincidunt. Sed interdum turpis
+            vel urna egestas, eget commodo felis sagittis. Phasellus mattis
+            eleifend mauris, quis egestas neque pretium a. Cras sollicitudin in
+            sem nec tincidunt.
+          </p>
+          <p class="articleTitle">Easy Peasy App</p>
+          <p>
+            Etiam malesuada, lectus et posuere feugiat, libero eros placerat mi,
+            et molestie ante lectus id leo. Nulla dignissim placerat malesuada.
+          </p>
+        </div>
         <div class="announcements">
           <p>announcements</p>
         </div>
@@ -24,7 +101,6 @@
           <p>trending</p>
         </div>
       </div>
-      <div class="footer">footer</div>
     </div>
   </body>
 </html>

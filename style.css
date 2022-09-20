@@ -6,6 +6,15 @@
 body {
   height: 100vh;
   width: 100vw;
+  font-family: "Roboto", sans-serif;
+}
+
+input {
+  width: 50%;
+}
+
+ul {
+  list-style: none;
 }
 
 .container {
@@ -38,7 +47,4 @@ body {
 
 .trending {
   grid-column: 2/3;
-}
-
-.footer {
 }
