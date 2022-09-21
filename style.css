@@ -22,11 +22,14 @@ ul {
   grid-template-columns: 1fr 4fr;
   grid-template-rows: auto 1fr;
   height: 100vh;
+  background-color: #ff9494;
 }
 
 .header {
   display: grid;
   grid-column: 2/3;
+  background-color: #fff5e4;
+  padding-top: 2%;
 }
 
 .account {
@@ -53,6 +56,7 @@ ul {
 .helloBox {
   grid-row: 3/5;
   display: flex;
+  align-items: center;
 }
 
 .helloImg {
@@ -83,31 +87,47 @@ ul {
 }
 
 .sideTxt:hover {
-  text-decoration: underline;
+  color: white;
 }
 
 .main {
   display: grid;
   grid-column: 2/3;
   grid-template-columns: 3fr 1fr;
+  background-color: #e8dfca;
 }
 
 .card {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
   gap: 15px;
+  padding: 2rem;
 }
 
 .cardContents {
   height: 200px;
+  background-color: #f5efe6;
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow);
+  border-left: 10px solid #fa7070;
 }
 
 .rightSide {
   grid-column: 2/3;
+  margin-top: 7%;
 }
 
-.trending {
+.announcementContents {
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  background-color: #f5efe6;
+}
+
+.trendingContent {
   grid-column: 2/3;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  background-color: #f5efe6;
 }
 
 .trendingBoxes {
