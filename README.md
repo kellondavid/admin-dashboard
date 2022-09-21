@@ -8,4 +8,5 @@ What I learned:
 
 - how to make grids (also utilizing repeat())
 - how to position grids - how to nest grids
-- what 1fr is - that grid can basically do everything that flexbox can
+- what 1fr is
+- that grid can basically do everything that flexbox can
