@@ -7,6 +7,7 @@ General Thoughts: Main purpose of the assignment was to utilize grids in CSS. Th
 What I learned:
 
 - how to make grids (also utilizing repeat())
-- how to position grids - how to nest grids
+- how to position grids
+- how to nest grids
 - what 1fr is
 - that grid can basically do everything that flexbox can
